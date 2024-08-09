@@ -1,4 +1,5 @@
 iseng buat ngakalin spam judol dan pinjol.
+
 Required :
 - Selenium
 - ChromeDriver
