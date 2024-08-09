@@ -65,9 +65,9 @@ def main():
     if driver:
         scan_whatsapp(driver)
         
-        contact_name = "Barken.id"  # Ganti dengan nama kontak yang sebenarnya
-        message = "REFUND DANA SAYA A.N CHARITY DIANA! TDK ADA KEJELASAN BARANG SUDAH 7 MINGGU TDK DIKIRIM!"  # Ganti dengan pesan yang sebenarnya
-        count = 500  # Ganti dengan jumlah pesan yang akan dikirim
+        contact_name = "contact_name"  # Ganti dengan nama kontak yang sebenarnya
+        message = "input message"  # Ganti dengan pesan yang sebenarnya
+        count = 10  # Ganti dengan jumlah pesan yang akan dikirim
 
         find_contact_and_send_messages(driver, contact_name, message, count)
 
